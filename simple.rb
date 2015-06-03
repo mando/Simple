@@ -79,3 +79,21 @@ class Multiply < Struct.new(:left, :right)
     end
   end
 end
+
+class GreaterThan < Struct.new(:left, :right)
+  def to_s
+
+  end
+
+  def inspect
+
+  end
+
+  def reducible?
+
+  end
+
+  def reduce
+
+  end
+end
